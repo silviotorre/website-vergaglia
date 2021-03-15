@@ -87,19 +87,14 @@ body {
 /* Buttons */
 .btn {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
 }
 .btn-sm {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-}
 .btn-md {
   padding: 0.6rem 1.2rem;
-  border-radius: 4px;
 }
 .btn-lg {
   padding: 1rem 2.6rem;
-  border-radius: 4px;
 }
 .bg-primary {
   background-color: #6592e6 !important;
@@ -340,6 +335,7 @@ body {
   border-color: transparent;
   color: #47b5ed;
 }
+  
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
@@ -460,6 +456,11 @@ body {
   background-color: #fafafa !important;
   border-color: #fafafa !important;
 }
+  /* ---- Text ---- */
+/* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
+/* 100vw - current viewport width */
+/* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
+/* 0.65 - min scale variable, may vary */
 .text-primary {
   color: #6592e6 !important;
 }
@@ -484,6 +485,11 @@ body {
 .text-black {
   color: #232323 !important;
 }
+  /* ---- Anchor ---- */
+/* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
+/* 100vw - current viewport width */
+/* (48 - 20)  48 == 48rem == 768px, 20 == 20rem == 320px(minimal supported viewport) */
+/* 0.65 - min scale variable, may vary */
 a.text-primary:hover,
 a.text-primary:focus,
 a.text-primary.active {
